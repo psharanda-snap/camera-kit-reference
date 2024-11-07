@@ -21,7 +21,7 @@
     <header class="header">
       <p class="header-col header-col--primary">
         <a class="header-link" href="../index.html">
-          SCSDKCameraKitReferenceUI 1.34.0 Docs
+          SCSDKCameraKitReferenceUI 1.37.0 Docs
         </a>
          (60% documented)
       </p>
@@ -356,9 +356,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:25SCSDKCameraKitReferenceUI26DefaultCarouselImageLoaderC04loadG03url10completiony10Foundation3URLV_ySo7UIImageCSg_s5Error_pSgtcSgtF"></a>
+                    <a name="/s:25SCSDKCameraKitReferenceUI19CarouselImageLoaderP04loadF03url10completiony10Foundation3URLV_ySo7UIImageCSg_s5Error_pSgtcSgtF"></a>
                     <a name="//apple_ref/swift/Method/loadImage(url:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:25SCSDKCameraKitReferenceUI26DefaultCarouselImageLoaderC04loadG03url10completiony10Foundation3URLV_ySo7UIImageCSg_s5Error_pSgtcSgtF">loadImage(url:<wbr>completion:<wbr>)</a>
+                    <a class="token" href="#/s:25SCSDKCameraKitReferenceUI19CarouselImageLoaderP04loadF03url10completiony10Foundation3URLV_ySo7UIImageCSg_s5Error_pSgtcSgtF">loadImage(url:<wbr>completion:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -366,8 +366,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Load image from url (callback queue will be on main)</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -377,46 +376,15 @@
 
                         </div>
                       </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>url</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>image url</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>completion</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>callback with image on success or error on failure</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
                     </section>
                   </div>
                 </li>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:25SCSDKCameraKitReferenceUI26DefaultCarouselImageLoaderC04loadG03url11cachePolicy5queue10completiony10Foundation3URLV_So017NSURLRequestCacheL0VSo012OS_dispatch_M0CySo7UIImageCSg_s5Error_pSgtcSgtF"></a>
+                    <a name="/s:25SCSDKCameraKitReferenceUI19CarouselImageLoaderP04loadF03url11cachePolicy5queue10completiony10Foundation3URLV_So017NSURLRequestCacheK0VSo012OS_dispatch_L0CySo7UIImageCSg_s5Error_pSgtcSgtF"></a>
                     <a name="//apple_ref/swift/Method/loadImage(url:cachePolicy:queue:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:25SCSDKCameraKitReferenceUI26DefaultCarouselImageLoaderC04loadG03url11cachePolicy5queue10completiony10Foundation3URLV_So017NSURLRequestCacheL0VSo012OS_dispatch_M0CySo7UIImageCSg_s5Error_pSgtcSgtF">loadImage(url:<wbr>cachePolicy:<wbr>queue:<wbr>completion:<wbr>)</a>
+                    <a class="token" href="#/s:25SCSDKCameraKitReferenceUI19CarouselImageLoaderP04loadF03url11cachePolicy5queue10completiony10Foundation3URLV_So017NSURLRequestCacheK0VSo012OS_dispatch_L0CySo7UIImageCSg_s5Error_pSgtcSgtF">loadImage(url:<wbr>cachePolicy:<wbr>queue:<wbr>completion:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -424,15 +392,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Load image from url</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">loadImage</span><span class="p">(</span>
-    <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span> 
+    <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">,</span>
     <span class="nv">cachePolicy</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="o">.</span><span class="kt">CachePolicy</span> <span class="o">=</span> <span class="o">.</span><span class="n">useProtocolCachePolicy</span><span class="p">,</span>
     <span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">,</span>
     <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">UIImage</span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span>
@@ -440,58 +407,15 @@
 
                         </div>
                       </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>url</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>image url</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>queue</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>queue to call completion on</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>completion</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>callback with image on success or error on failure</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
                     </section>
                   </div>
                 </li>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:25SCSDKCameraKitReferenceUI26DefaultCarouselImageLoaderC06cancelG4Load4fromy10Foundation3URLV_tF"></a>
+                    <a name="/s:25SCSDKCameraKitReferenceUI19CarouselImageLoaderP06cancelF4Load4fromy10Foundation3URLV_tF"></a>
                     <a name="//apple_ref/swift/Method/cancelImageLoad(from:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:25SCSDKCameraKitReferenceUI26DefaultCarouselImageLoaderC06cancelG4Load4fromy10Foundation3URLV_tF">cancelImageLoad(from:<wbr>)</a>
+                    <a class="token" href="#/s:25SCSDKCameraKitReferenceUI19CarouselImageLoaderP06cancelF4Load4fromy10Foundation3URLV_tF">cancelImageLoad(from:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -499,8 +423,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
@@ -521,7 +444,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2024 <a class="link" href="https://kit.snapchat.com/camera-kit" target="_blank" rel="external noopener">Snap Inc.</a>. All rights reserved. (Last updated: 2024-09-10)</p>
+      <p>&copy; 2024 <a class="link" href="https://kit.snapchat.com/camera-kit" target="_blank" rel="external noopener">Snap Inc.</a>. All rights reserved. (Last updated: 2024-11-05)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
     </section>
   </body>
