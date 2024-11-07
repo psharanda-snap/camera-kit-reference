@@ -688,22 +688,15 @@
     },
     {
       "file": "/private/var/lib/jenkins/workspace/camera-kit-ios-sdk/SDKs/CameraKit/CameraKitSandbox/Sources/Reference/UIKit/Carousel/CarouselImageLoader.swift",
-      "line": 17,
+      "line": 33,
       "symbol": "DefaultCarouselImageLoader.urlSession",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/private/var/lib/jenkins/workspace/camera-kit-ios-sdk/SDKs/CameraKit/CameraKitSandbox/Sources/Reference/UIKit/Carousel/CarouselImageLoader.swift",
-      "line": 21,
+      "line": 37,
       "symbol": "DefaultCarouselImageLoader.init(urlSession:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/private/var/lib/jenkins/workspace/camera-kit-ios-sdk/SDKs/CameraKit/CameraKitSandbox/Sources/Reference/UIKit/Carousel/CarouselImageLoader.swift",
-      "line": 65,
-      "symbol": "DefaultCarouselImageLoader.cancelImageLoad(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
